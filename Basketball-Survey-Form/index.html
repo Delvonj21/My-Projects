@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Build a Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <h1 id="title">Basketball Survery Form</h1>
+      <p id="description">Thank you for taking the time to take this Survey</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" class="name">Enter Your Full Name:<input required id="name" type="text" placeholder="Enter Your Name" />
+            </label><br>
+            <label id="email-label" class="email">Enter Your Email: 
+              <input type="email" required id="email" type="text" placeholder="Enter Your Email" />
+              </label><br>
+              <label id="number-label" class="age">Enter Your Age (optional):
+                <input type="number" id="number" name="age" min="13" max="120" placeholder="Age" />
+                </label><br>
+              <label>Who is your Favorite basketball Player?<br>
+              <select id="dropdown">
+                <option value="">(Select One)</option>
+                <option value="1">Lebron</option>
+                <option value="2">KD</option>
+                <option value="3">Luka</option>
+                <option value="4">Greek Freak</option>
+                <option value="5"> Other</option>
+                </select>
+                </label>
+                </fieldset>
+                <fieldset>
+                  <label>How often do you play basketball?<br>
+                  <label> <input type="radio" name="account-type" class="inline" value="1" /> Not Much</label><br>
+                  <label> <input type="radio" name="account-type" class="inline" value="2" /> Pretty Often</label><br>
+                <label> <input type="radio" name="account-type" class="inline" value="3" /> Everyday</label><br>
+                </fieldset>
+                <fieldset>
+                  <label>Who is your favorite team?</label><br>
+                 <label> <input type="checkbox" name="options" class="inline" value="1" /> Golden State</label><br>
+                  <label> <input type="checkbox" name="options" class="inline" value="2" /> LA Lakers</label><br>
+                  <label> <input type="checkbox" name="options" class="inline" value="3" /> Boston Celtics</label><br>
+                  <label> <input type="checkbox" name="options" class="inline" value="4" /> Phoenix Suns</label><br>
+                  <label> <input type="checkbox" name="options" class="inline" value="5" /> Miami Heat</label><br>
+                  <label> <input type="checkbox" name="options" class="inline" value="6" /> Milwaukee Bucks</label><br>
+                  <label> <input type="checkbox" name="options" class="inline" value="7" /> LA Clippers</label><br>
+                  <label> <input type="checkbox" name="options" class="inline" value="8" /> Other</label><br>
+                  </fieldset>
+                  <fieldset>
+                    <label>Describe your game...
+                      <textarea name="useful info" rows="3" cols="30" placeholder="Enter Your Comments Here..."></textarea>
+                      </label>
+                      </fieldset>
+                      <label> <input id="submit" type="submit" value="submit" />
+                      </label>
+                      </form>
+                      </body>
+                      </html>
+  

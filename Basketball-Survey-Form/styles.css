@@ -1,0 +1,52 @@
+* {
+  margin: 20px;
+  padding: 20px;
+}
+
+#description {
+  text-align: center;
+}
+
+label {
+  margin: 0 auto;
+}
+
+body {
+  color: #525FE1;
+  width: 100%;
+  margin: 0;
+  background-color: #FFA41B;
+  font-family: Tahoma;
+  font-size: 16px; 
+}
+  h1 {
+    text-align: center;
+    font-family: Comic Sans MS;
+  }
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #525FE1;
+  }
+  input {
+    padding: 5px;
+    margin: 2px;
+    width: 100%
+    
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+  }
+
+  .name {
+    margin: 10px;
+  }
+  
